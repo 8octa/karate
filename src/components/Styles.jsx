@@ -1,13 +1,13 @@
-import { useReveal } from "../hooks/useReveal";
-
 const styles = [
   {
     title: "Shōrin-ryū Karate",
-    desc: "Okinawan tradition, kata, discipline.",
+    desc: "Tradiție din Okinawa, kata, disciplină.",
+    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minima odio amet magni? Tenetur eos, qui iusto minus debitis voluptate voluptatem enim inventore fuga consequatur vel tempora obcaecati voluptatum fugit?",
   },
   {
     title: "Wing Chun",
-    desc: "Efficiency, structure, close combat.",
+    desc: "Eficiență, structură, luptă corp la corp.",
+    text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minima odio amet magni? Tenetur eos, qui iusto minus debitis voluptate voluptatem enim inventore fuga consequatur vel tempora obcaecati voluptatum fugit?",
   },
 ];
 
@@ -16,7 +16,7 @@ export default function Styles() {
     <section className="py-24 border-t border-border">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-3xl uppercase tracking-widest mb-12">
-          Martial Arts Styles
+          Stiluri de arte marțiale practicate
         </h2>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -28,7 +28,9 @@ export default function Styles() {
               <h3 className="text-xl uppercase tracking-widest mb-4">
                 {style.title}
               </h3>
-              <p className="text-muted leading-relaxed">{style.desc}test</p>
+              <p className="text-muted leading-relaxed mb-2">{style.desc}</p>
+
+              <p className="text-muted leading-relaxed text-sm">{style.text}</p>
             </div>
           ))}
         </div>

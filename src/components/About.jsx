@@ -6,21 +6,21 @@ export default function About() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16">
         <div className="about-reveal space-y-6">
           <h2 className="text-3xl uppercase tracking-widest">
-            About the Instructor
+            Sensei Stanciu Nicușor
           </h2>
           <p className="italic text-muted">
-            “Martial arts is not violence — it is discipline.”
+            “Artele marțiale nu înseamnă violență, ci disciplină.”
           </p>
           <p className="text-muted leading-relaxed">
-            With over 25 years of experience, training focuses on tradition,
-            respect, and mastery of body and mind.
+            Cu peste 30 de ani de experiență, antrenamentul se concentrează pe
+            tradiție, respect, stăpânirea corpului și a minții.
           </p>
         </div>
 
         <div className="about-reveal border-l border-border pl-8">
-          <p className="text-6xl text-accent">25+</p>
+          <p className="text-6xl text-accent">30+</p>
           <p className="uppercase tracking-widest text-sm text-muted">
-            Years of Teaching
+            Ani de Experiență
           </p>
         </div>
       </div>
