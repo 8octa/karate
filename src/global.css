@@ -24,4 +24,23 @@ body {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* =========================
+   LIGHT THEME
+   ========================= */
+body.light {
+  --color-dark: #eeeeee;
+  --color-dark-soft: #bebaba;
+  --color-text: #000000;
+  --color-accent: #2563eb;
+  --color-secondary: #dc2626;
+  --color-tertiary: #ef4444;
+  --color-border: #2c2b2b;
+
+  background-color: var(--color-dark);
+  color: var(--color-text);
 }

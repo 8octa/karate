@@ -53,7 +53,7 @@ const Footer = () => {
             height="560"
             x="0"
             y="0"
-            fill="rgba(11, 11, 11, 1)"
+            fill="var(--color-dark)"
           ></rect>
           <path
             className="box1"
