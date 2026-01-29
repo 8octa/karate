@@ -1,5 +1,3 @@
-import { useReveal } from "../hooks/useReveal";
-
 export default function About() {
   return (
     <section className="py-24 border-t border-border">
