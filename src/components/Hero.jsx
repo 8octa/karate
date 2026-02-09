@@ -1,11 +1,14 @@
 export default function Hero() {
   return (
-    <section className="hero min-h-screen flex items-center bg-[url('/hero.jpg')] bg-cover bg-center bg-no-repeat">
+    <section
+      id="hero"
+      className="hero min-h-screen flex items-center bg-[url('/hero.jpg')] bg-cover bg-center bg-no-repeat"
+    >
       <div className="max-w-6xl mx-auto p-6 space-y-6 bg-dark/50">
-        <p className="text-muted max-w-xl uppercase text-text/60 font-bold">
+        <p className="text-sm md:text-muted max-w-xl uppercase text-text/60 font-bold">
           Club de Arte Marțiale Zanshin Moreni
         </p>
-        <h1 className="text-5xl font-bold uppercase tracking-widest">
+        <h1 className="text-xl md:text-5xl font-bold uppercase tracking-widest">
           Tradiție. Disciplina. Măiestrie.
         </h1>
 
@@ -14,9 +17,7 @@ export default function Hero() {
         </p>
 
         <button className="border border-accent px-8 py-4 uppercase tracking-widest hover:bg-accent transition font-bold">
-          <a href="http://" target="_blank" rel="noopener noreferrer">
-            Vreau sa învăț!
-          </a>
+          <a href="#contact">Vreau sa învăț!</a>
         </button>
       </div>
     </section>

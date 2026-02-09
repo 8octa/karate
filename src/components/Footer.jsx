@@ -4,28 +4,24 @@ import gsap from "gsap";
 const Footer = () => {
   useGSAP(() => {
     gsap.to(".box1", {
-      x: 5,
       y: 15,
       repeat: -1,
       yoyo: true,
       duration: 3,
     });
     gsap.to(".box2", {
-      x: 10,
       y: 25,
       repeat: -1,
       yoyo: true,
       duration: 4,
     });
     gsap.to(".box3", {
-      x: 15,
       y: 35,
       repeat: -1,
       yoyo: true,
       duration: 5,
     });
     gsap.to(".box4", {
-      x: 20,
       y: 45,
       repeat: -1,
       yoyo: true,
@@ -34,16 +30,17 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="text-text/10 font-black text-[0.7rem] tracking-widest uppercase text-center border-t border-border/10 w-full">
+    <footer
+      id="footer"
+      className="text-text/10 font-black text-[0.7rem] tracking-widest uppercase text-center border-t border-border/10 w-full"
+    >
       ~ Club Zanshin Moreni {new Date().getFullYear()} ~
       <svg
-        className="w-full"
+        className="w-full h-48 sm:h-64 md:h-80 lg:h-96"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         xmlns:xlink="http://www.w3.org/1999/xlink"
         xmlns:svgjs="http://svgjs.dev/svgjs"
-        width="1920"
-        height="560"
         preserveAspectRatio="none"
         viewBox="0 0 1920 560"
       >

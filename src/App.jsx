@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Styles from "./components/Styles";
+import Contests from "./components/Contests";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -34,6 +35,7 @@ export default function App() {
         <Hero />
         <About />
         <Styles />
+        <Contests />
         <Contact />
         <Footer />
       </main>
