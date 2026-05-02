@@ -2,9 +2,9 @@ import React from "react";
 
 const items = [
   {
-    label: "Facebook",
-    value: "facebook.com/yourpage",
-    href: "https://facebook.com/yourpage",
+    label: "Nic San",
+    value: "https://www.facebook.com/nic.san.73",
+    href: "https://www.facebook.com/nic.san.73",
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true">
         <path
@@ -16,8 +16,8 @@ const items = [
   },
   {
     label: "Facebook",
-    value: "facebook.com/yourpage",
-    href: "https://facebook.com/yourpage",
+    value: "https://www.facebook.com/profile.php?id=100064099292874",
+    href: "https://www.facebook.com/profile.php?id=100064099292874",
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true">
         <path
@@ -29,8 +29,8 @@ const items = [
   },
   {
     label: "Instagram",
-    value: "@yourhandle",
-    href: "https://instagram.com/yourhandle",
+    value: "@clubzanshin",
+    href: "https://www.instagram.com/clubzanshin/",
     icon: (
       <svg viewBox="0 0 24 24" className="h-5 w-5" aria-hidden="true">
         <path
