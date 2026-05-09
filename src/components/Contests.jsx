@@ -105,7 +105,8 @@ export default function Contests() {
           <p className="text-muted mb-6 max-w-2xl mx-auto">
             Oferim antrenamente specializate pentru competiții, atât pentru
             începători cât și pentru competitori avansați. Fiecare membru este
-            încurajat să participe și să își depășească limitele.
+            încurajat să participe și să își depășească limitele, indiferent de
+            vârstă.
           </p>
         </div>
 

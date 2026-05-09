@@ -10,7 +10,7 @@ export default function About() {
             “Artele marțiale nu înseamnă violență, ci disciplină.”
           </p>
           <p className="text-muted leading-relaxed">
-            Cu peste 30 de ani de experiență, antrenamentul se concentrează pe
+            Cu peste 30 de ani de experiență ca antrenor, ne concentrăm pe
             tradiție, respect, stăpânirea corpului și a minții.
           </p>
         </div>

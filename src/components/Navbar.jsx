@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
+import Sigla from "./Sigla.jsx";
 
 export default function Navbar({ theme, toggleTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -6,16 +10,40 @@ export default function Navbar({ theme, toggleTheme }) {
   const navItems = [
     { label: "Despre", href: "#about" },
     { label: "Arte Martiale", href: "#styles" },
+    { label: "Dojo", href: "#dojo" },
     { label: "Competiții", href: "#contests" },
     { label: "Contact", href: "#contact" },
+    { label: "Studenti", href: "#black-belts" },
+    { label: "Galerie", href: "#gallery" },
   ];
 
   return (
     <nav className="z-50 w-full border-b border-border backdrop-blur p-1 position sticky top-0">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <span className="uppercase tracking-tracking-widest text-xs">
-          <a href="#hero">Club Zanshin Moreni</a>
-        </span>
+        <div className="flex justify-center items-center gap-5">
+          <span className="uppercase tracking-tracking-widest text-xs">
+            <a href="#hero">
+              <Sigla className="h-10 w-10" />
+            </a>
+          </span>
+          <a
+            href="https://www.facebook.com/profile.php?id=100064099292874"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaFacebook className="h-5 w-5" />
+          </a>
+          <a
+            href="https://www.instagram.com/clubzanshin/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="h-5 w-5" />
+          </a>
+          <a href="tel:+40722637848">
+            <BsFillTelephoneFill />
+          </a>
+        </div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
@@ -36,35 +64,9 @@ export default function Navbar({ theme, toggleTheme }) {
             aria-label="Toggle theme"
           >
             {theme === "dark" ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-5 h-5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
-                />
-              </svg>
+              <FiSun className="w-5 h-5" />
             ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-5 h-5"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
-                />
-              </svg>
+              <FiMoon className="w-5 h-5" />
             )}
           </button>
         </div>
@@ -115,35 +117,9 @@ export default function Navbar({ theme, toggleTheme }) {
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M6 18L18 6M6 6l12 12"
-                />
-              </svg>
+              <FiX className="w-6 h-6" />
             ) : (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-                />
-              </svg>
+              <FiMenu className="w-6 h-6" />
             )}
           </button>
         </div>

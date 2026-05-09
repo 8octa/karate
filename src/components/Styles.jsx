@@ -1,13 +1,13 @@
 const styles = [
   {
-    title: "Shōrin-ryū Karate",
-    desc: "Tradiție din Okinawa, kata, disciplină.",
-    text: "Shōrin-ryū Karate este unul dintre cele mai vechi și mai respectate stiluri de karate din Okinawa, având origini ce datează din secolul al XIX-lea. Numele Shōrin derivă din pronunția okinaweană a caractarelor chinezești pentru Pădurea Shaolin, reflectând influențele chinezești din artele marțiale tradiționale. Shōrin-ryū se distinge prin mișcări naturale, rapide și fluide, care pun accent pe agilitate și viteză în locul forței brute.",
-  },
-  {
     title: "Wing Chun / Wushu",
     desc: "Eficiență, inteligență, poziționare",
     text: "Wing Chun se bazează pe conceptul de eficiență maximă cu efort minim. Spre deosebire de multe alte arte marțiale care se bazează pe forță fizică brută, Wing Chun utilizează principii mecanice inteligente și poziționare superioară pentru a învinge adversari mai puternici. Stilul pune accent pe linia centrală, economie de mișcare și simultaneitatea atacului și apărării.",
+  },
+  {
+    title: "Karate Okinawan",
+    desc: "Tradiție din Okinawa, kata, disciplină.",
+    text: "Shōrin-ryū Karate este unul dintre cele mai vechi și mai respectate stiluri de karate din Okinawa, având origini ce datează din secolul al XIX-lea. Numele Shōrin derivă din pronunția okinaweană a caractarelor chinezești pentru Pădurea Shaolin, reflectând influențele chinezești din artele marțiale tradiționale. Shōrin-ryū se distinge prin mișcări naturale, rapide și fluide, care pun accent pe agilitate și viteză în locul forței brute.",
   },
 ];
 

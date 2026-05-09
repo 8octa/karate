@@ -4,8 +4,11 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Styles from "./components/Styles";
+import Facilities from "./components/Facilities";
 import Contests from "./components/Contests";
 import Contact from "./components/Contact";
+import BlackBelts from "./components/BlackBelts";
+import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -35,8 +38,11 @@ export default function App() {
         <Hero />
         <About />
         <Styles />
+        <Facilities />
         <Contests />
         <Contact />
+        <BlackBelts />
+        <Gallery />
         <Footer />
       </main>
     </>

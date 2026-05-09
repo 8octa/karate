@@ -8,12 +8,12 @@ export default function Hero() {
         <p className="text-sm md:text-muted max-w-xl uppercase text-text/60 font-bold">
           Club de Arte Marțiale Zanshin Moreni
         </p>
-        <h1 className="text-xl md:text-5xl font-bold uppercase tracking-widest">
-          Tradiție. Disciplina. Măiestrie.
+        <h1 className="font-[Karate] text-sm md:text-4xl font-bold uppercase tracking-widest">
+          Traditie. Disciplina. Maiestrie.
         </h1>
 
         <p className="text-muted max-w-xl">
-          Shōrin-ryū Karate · Wing Chun Kung Fu
+          Wushu Kung-Fu · Wing Chun Kung-Fu · Karate Okinawan
         </p>
 
         <button className="border border-accent px-8 py-4 uppercase tracking-widest hover:bg-accent transition font-bold">
