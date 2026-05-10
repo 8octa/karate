@@ -1,13 +1,13 @@
 const images = [
-  "https://picsum.photos/1200/800?random=1",
-  "https://picsum.photos/800/800?random=2",
-  "https://picsum.photos/800/800?random=3",
-  "https://picsum.photos/800/800?random=4",
-  "https://picsum.photos/800/800?random=5",
-  "https://picsum.photos/800/800?random=6",
-  "https://picsum.photos/800/800?random=7",
-  "https://picsum.photos/800/800?random=8",
-  "https://picsum.photos/800/800?random=9",
+  "1.jpg",
+  "2.jpg",
+  "3.jpg",
+  "4.jpg",
+  "5.jpg",
+  "6.jpg",
+  "7.jpg",
+  "8.jpg",
+  "9.jpg",
 ];
 
 export default function Gallery() {
@@ -18,7 +18,7 @@ export default function Gallery() {
         <div className="mb-14 max-w-2xl">
           <p className="mb-4 uppercase  text-accent">Galerie</p>
 
-          <h2 className="text-4xl uppercase  md:text-5xl">Momente din Dojo</h2>
+          <h2 className="text-4xl uppercase  md:text-5xl">Momente</h2>
 
           <p className="mt-6 leading-relaxed">
             Antrenamente, seminarii, sparring și momente care reflectă

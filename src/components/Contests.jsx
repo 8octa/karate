@@ -1,56 +1,45 @@
 export default function Contests() {
   const achievements = [
     {
-      year: "2024",
-      title: "Campionatul Național de Karate",
-      achievement: "3 Medalii de Aur, 5 Medalii de Argint",
+      year: "2026",
+      title: "Campionatul Național de Wing Chun Kuen",
+      achievement:
+        "7 locuri campioni naționali, 13 locuri vicecampioni naționali, 11 locuri 3",
     },
     {
-      year: "2023",
-      title: "Cupa României - Arte Marțiale",
-      achievement: "Locul 1 Echipe, 7 Medalii Individuale",
+      year: "2026",
+      title: "Campionatul național de Wushu Kung-Fu Sanda Light",
+      achievement:
+        "1 loc campioni național, 1 loc vicecampion național, 6 locuri 3",
     },
     {
-      year: "2023",
-      title: "Turneul Internațional Bucharest Open",
-      achievement: "2 Medalii de Aur, 4 Medalii de Bronz",
+      year: "2025",
+      title: "Cupa României de Wushu Kung-Fu Light Sanda",
+      achievement: "1 campion național",
     },
   ];
 
   const upcomingCompetitions = [
     {
-      date: "15 Martie 2026",
-      name: "Campionatul Județean de Karate",
-      location: "Sala Sporturilor, București",
-      category: "Toate categoriile",
+      date: "3 Octombrie 2026",
+      name: "Campionatul Național Wushu",
+      location: "București, Sala Polivalenta",
+      category: "Sanda: copii (9 - 11 ani), cadeți, juniori, seniori - M, F",
       status: "Înscrieri deschise",
     },
     {
-      date: "22 Aprilie 2026",
-      name: "Cupa de Primăvară - Wing Chun",
-      location: "Arena Națională, Cluj-Napoca",
-      category: "Seniori & Juniori",
-      status: "Înscrieri deschise",
-    },
-    {
-      date: "10 Mai 2026",
-      name: "Turneul Internațional Bucharest Open",
-      location: "Polivalenta, București",
-      category: "Internațional - Toate stilurile",
+      date: "17 Octombrie 2026",
+      name: "Cupa României - Wing Chun",
+      location: "Baia Mare",
+      category: "Tao, Sanda: copii, cadeți, juniori, seniori, veterani - M, F",
       status: "În curând",
     },
     {
-      date: "5 Iunie 2026",
-      name: "Campionatul Național de Wushu",
-      location: "Sala Olimpia, Brașov",
-      category: "Forme & Combat",
-      status: "În curând",
-    },
-    {
-      date: "20 Septembrie 2026",
-      name: "Cupa României - Arte Marțiale",
-      location: "Complexul Sportiv, Timișoara",
-      category: "Toate categoriile",
+      date: "07 Noiembrie 2026",
+      name: "Cupa României Kung-Fu",
+      location: "București",
+      category:
+        "Taolu tradițional, Light Sanda: copii, cadeți, juniori, seniori, veterani - M, F",
       status: "În curând",
     },
   ];

@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaMapMarkerAlt } from "react-icons/fa";
 import { FiSun, FiMoon, FiMenu, FiX } from "react-icons/fi";
 import Sigla from "./Sigla.jsx";
+import { BiSolidMapPin } from "react-icons/bi";
 
 export default function Navbar({ theme, toggleTheme }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,6 +43,14 @@ export default function Navbar({ theme, toggleTheme }) {
           </a>
           <a href="tel:+40722637848">
             <BsFillTelephoneFill />
+          </a>
+
+          <a
+            href="https://www.google.com/maps/place/Ion+Luca+Caragiale+National+College/@44.9787567,25.6462214,18.5z/data=!4m6!3m5!1s0x40b2579e4510cc77:0x8f8edc8519a3d38b!8m2!3d44.9784895!4d25.6463577!16s%2Fg%2F1hc1sp84r?entry=ttu&g_ep=EgoyMDI2MDUwNi4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaMapMarkerAlt />
           </a>
         </div>
 

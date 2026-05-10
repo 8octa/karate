@@ -16,7 +16,7 @@ export default function BlackBelts() {
           </p>
 
           <h2 className="text-4xl uppercase Centuri md:text-5xl">
-            Centuri Negre / Eșarfe
+            Centuri / Eșarfe
           </h2>
 
           <p className="mt-6 max-w-2xl leading-relaxed ">
@@ -48,9 +48,7 @@ export default function BlackBelts() {
                       : ""
                   }`}
                 >
-                  <td className="px-6 py-5">
-                    {student.name}
-                  </td>
+                  <td className="px-6 py-5">{student.name}</td>
 
                   <td className="px-6 py-5 text-right font-semibold text-accent">
                     {student.rank}
