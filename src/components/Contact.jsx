@@ -19,7 +19,7 @@ const items = [
   {
     label: "TikTok",
     value: "În curând pe TikTok",
-    href: "#",
+    href: "",
     icon: <FaTiktok className="h-5 w-5" />,
   },
   {

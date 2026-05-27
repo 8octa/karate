@@ -1,6 +1,6 @@
 import React from "react";
 
-const Sigla = () => {
+const Sigla = ({ theme }) => {
   return (
     <>
       <svg
@@ -13,7 +13,7 @@ const Sigla = () => {
       >
         <g
           transform="translate(0.000000,1600.000000) scale(0.100000,-0.100000)"
-          fill="#fff"
+          fill={theme === "dark" ? "#fff" : "#000"}
           stroke="none"
         >
           <path

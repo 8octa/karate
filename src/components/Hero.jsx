@@ -2,13 +2,13 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="hero min-h-screen flex items-center bg-[url('/hero.jpg')] bg-cover bg-center bg-no-repeat"
+      className="hero min-h-screen flex items-center bg-[url('/hero.webp')] bg-cover bg-center bg-no-repeat"
     >
       <div className="max-w-6xl mx-auto p-6 space-y-6 bg-dark/50">
         <p className="text-sm md:text-muted max-w-xl uppercase text-text/60 font-bold">
           Club de Arte Marțiale Zanshin Moreni
         </p>
-        <h1 className="font-[Karate] text-sm md:text-4xl font-bold uppercase tracking-widest">
+        <h1 className="font-[Karate] text-4xl font-bold uppercase tracking-widest">
           Traditie. Disciplina. Maiestrie.
         </h1>
 

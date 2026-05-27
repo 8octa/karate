@@ -24,7 +24,7 @@ export default function Navbar({ theme, toggleTheme }) {
         <div className="flex justify-center items-center gap-5">
           <span className="uppercase tracking-tracking-widest text-xs">
             <a href="#hero">
-              <Sigla className="h-10 w-10" />
+              <Sigla theme={theme} className="h-10 w-10" />
             </a>
           </span>
           <a

@@ -1,8 +1,20 @@
 const blackBelts = [
-  { name: "Cristian Marin", rank: "2 Dan" },
-  { name: "Andrei Popescu", rank: "1 Dan" },
-  { name: "Mihai Ionescu", rank: "1 Dan" },
-  { name: "Alex Dumitru", rank: "Instructor Level" },
+  { name: "Stanciu Nicusor", rank: "6 Dan" },
+  { name: "Nitoiu Ionut", rank: "2 Dan" },
+  { name: "Toader Elisabeta", rank: "2 Dan" },
+  { name: "Agrapinei Valentina", rank: "1 Dan" },
+  { name: "Asofiei Ioana", rank: "1 Dan" },
+  { name: "Asofiei Maria", rank: "1 Dan" },
+  { name: "Bodea Razvan", rank: "1 Dan" },
+  { name: "Craciun Alin", rank: "1 Dan" },
+  { name: "Dodan Denisa", rank: "1 Dan" },
+  { name: "Iancu Marius", rank: "1 Dan" },
+  { name: "Nitoiu Adrian", rank: "1 Dan" },
+  { name: "Nitoiu Robert", rank: "1 Dan" },
+  { name: "Tataru Octavian", rank: "1 Dan" },
+  { name: "Lita Mihai", rank: "1 Dan" },
+  { name: "Penciulescu Maria Cristina", rank: "1 Dan" },
+  { name: "Penciulescu Andrei Alexandru", rank: "1 Dan" },
 ];
 
 export default function BlackBelts() {
@@ -16,7 +28,7 @@ export default function BlackBelts() {
           </p>
 
           <h2 className="text-4xl uppercase Centuri md:text-5xl">
-            Centuri / Eșarfe
+            Centuri Negre
           </h2>
 
           <p className="mt-6 max-w-2xl leading-relaxed ">
