@@ -85,12 +85,16 @@ export default function Contact() {
             <div className="mt-8 space-y-3 text-sm">
               <p className="uppercase tracking-widest text-text">Program</p>
               <p className="text-text-muted">
-                Marți & Joi: <span className="text-text">18:30 – 20:00</span>{" "}
-                <span className="text-accent">Kung Fu</span>
+                Luni & Miercuri <span className="text-text">16:00 – 17:00</span>{" "}
+                <span className="text-accent">Karate</span>
               </p>
               <p className="text-text-muted">
-                Weekend: <span className="text-text">09:00 – 10:00</span>{" "}
+                Marți & Joi <span className="text-text">17:00 – 18:30</span>{" "}
                 <span className="text-accent">Karate</span>
+              </p>
+              <p className="text-text-muted">
+                Marți & Joi: <span className="text-text">18:30 – 20:00</span>{" "}
+                <span className="text-accent">Kung Fu</span>
               </p>
             </div>
           </div>
